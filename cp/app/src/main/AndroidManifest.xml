@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cp">
+
+        <activity android:name=".MainNavActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IronManActivity" />
+        <activity android:name=".HulkActivity" />
+        <activity android:name=".IronMan2Activity" />
+        <activity android:name=".ThorActivity" />
+        <activity android:name=".CaptainAmericaActivity" />
+        <activity android:name=".AvengersActivity" />
+        <activity android:name=".IronMan3Activity" />
+        <activity android:name=".ThorDarkWorldActivity" />
+        <activity android:name=".WinterSoldierActivity" />
+        <activity android:name=".GuardiansActivity" />
+        <activity android:name=".UltronActivity" />
+        <activity android:name=".AntManActivity" />
+        <activity android:name=".CivilWarActivity" />
+        <activity android:name=".HomecomingActivity" />
+        <activity android:name=".BlackPantherActivity" />
+        <activity android:name=".InfinityWarActivity" />
+        <activity android:name=".CaptainMarvelActivity" />
+        <activity android:name=".EndgameActivity" />
+        <activity android:name=".FarFromHomeActivity" />
+        <activity android:name=".BlackWidowActivity" />
+
+    </application>
+</manifest>

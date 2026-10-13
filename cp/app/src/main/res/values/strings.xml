@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cp</string>
+    <string name="movies">Movies</string>
+    <string name="home">Home</string>
+</resources>
