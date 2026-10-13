@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab02</string>
+    <string name="increment">increment</string>
+    <string name="decrement">decrement</string>
+    <string name="greeting"><sub>W</sub>el<big>come</big> <b><u>M</u><s>o</s>m</b><sup>!</sup>\n
+    <font face="monospace" color="hex_color">Hello</font> \n
+   	<font face="serif" color="hex_color">Dad</font>.</string>
+    <string name="likes_count">You have %1$d likes!</string>
+    <string name="radio_label_up">Up</string>
+    <string name="radio_label_down">Down</string>
+    <string name="help">help</string>
+    <string name="welcome">Welcome!</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="submit">submit</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+</resources>
